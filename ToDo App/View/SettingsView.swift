@@ -30,7 +30,7 @@ struct SettingsView: View {
           // MARK: - SECTION 1
           
           Section(header: Text("Choose the app icon")) {
-            Picker(selection: $iconSettings.currentIndex, label:
+              Picker(selection: $iconSettings.currentIndex, label:
               HStack {
                 ZStack {
                   RoundedRectangle(cornerRadius: 8, style: .continuous)

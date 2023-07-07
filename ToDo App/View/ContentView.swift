@@ -16,7 +16,7 @@ struct ContentView: View {
     //MARK: PROPERTIES
     @Environment(\.managedObjectContext) var managedObjectContext
     @FetchRequest(entity: Todo.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Todo.name, ascending: true)]) var todos: FetchedResults<Todo>
-    @EnvironmentObject var iconSettings: IconNames
+    @StateObject var iconSettings: IconNames = IconNames()
     
     @Environment(\.managedObjectContext) private var viewContext
     
@@ -75,7 +75,7 @@ struct ContentView: View {
                         } //: SETTINGS BUTTON
                         .accentColor(themes[self.theme.themeSettings].themeColor)
                         .sheet(isPresented: $showingSettingsView) {
-                            SettingsView().environmentObject(self.iconSettings)
+                            SettingsView()
                         }
                 )
                 
@@ -119,10 +119,10 @@ struct ContentView: View {
                 } //: ZSTACK
                     .padding(.bottom, 15)
                     .padding(.trailing, 15)
-                , alignment: .bottomTrailing
-            )
+                ,alignment: .bottomTrailing)
         } //: NAVIGATION
         .navigationViewStyle(StackNavigationViewStyle())
+        .environmentObject(iconSettings)
     }
     
     
