@@ -11,8 +11,8 @@
 			<string>arm64</string>
 		</array>
 		<key>CFBundleIdentifier</key>
-		<string>Steffanie-Sharma.ToDo-App</string>
-		<key>CFBundleShortVersionString</key>
+		<string>Sharma.ToDo-App</string>
+		<key>CFBundleShortVersionString</key
 		<string>1.0</string>
 		<key>CFBundleVersion</key>
 		<string>1</string>
