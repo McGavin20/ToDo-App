@@ -22,3 +22,19 @@ In addition to the main Todo functionality, I also learned how to build some ext
 - Create subtle animations and enhance the general UI and UX.
 - Support Dark/Light mode user interfaces with SwiftUI.
 - Support the todo list in wide iPad screens.
+
+# Screenshots 📱:
+
+The images below show screenshots of the home screen, the Todo notes and the settings view page of the App. 'Simulator Screen Shot - iPhone 14 Pro'
+
+## Home Page
+
+![Simulator Screen Shot - iPhone 14 Pro - 2023-07-10 at 12 27 01](https://github.com/McGavin20/ToDo-App/assets/86229307/28f9a138-dd89-4189-9554-613df89c5962)
+
+## Todo Notes
+
+![Simulator Screen Shot - iPhone 14 Pro - 2023-07-10 at 12 27 46](https://github.com/McGavin20/ToDo-App/assets/86229307/f0b41c72-210a-4b40-a80d-bd98153f903b)
+
+## Settings View 
+
+![Simulator Screen Shot - iPhone 14 Pro - 2023-07-10 at 12 40 04](https://github.com/McGavin20/ToDo-App/assets/86229307/ff41f003-6dc1-4ea1-b237-e0bde4150554)
