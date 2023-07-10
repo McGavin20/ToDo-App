@@ -33,9 +33,9 @@ struct SettingsView: View {
               Picker(selection: $iconSettings.currentIndex, label:
               HStack {
                 ZStack {
-                  RoundedRectangle(cornerRadius: 8, style: .continuous)
+                    RoundedRectangle(cornerRadius: 8, style: .continuous)
                     .strokeBorder(Color.primary, lineWidth: 2)
-                  
+                    
                   Image(systemName: "paintbrush")
                     .font(.system(size: 28, weight: .regular, design: .default))
                     .foregroundColor(Color.primary)
@@ -132,7 +132,7 @@ struct SettingsView: View {
           Section(header: Text("About the application")) {
             FormRowStaticView(icon: "gear", firstText: "Application", secondText: "Todo")
             FormRowStaticView(icon: "checkmark.seal", firstText: "Compatibility", secondText: "iPhone, iPad")
-            FormRowStaticView(icon: "keyboard", firstText: "Developer", secondText: "John / Jane")
+            FormRowStaticView(icon: "keyboard", firstText: "Developer", secondText: "Sharma")
             FormRowStaticView(icon: "paintbrush", firstText: "Designer", secondText: "Robert Petras")
             FormRowStaticView(icon: "flag", firstText: "Version", secondText: "1.5.0")
           } //: SECTION 4
