@@ -29,12 +29,12 @@ The images below show screenshots of the home screen, the Todo notes and the set
 
 ## Home Page
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-07-10 at 12 27 01](https://github.com/McGavin20/ToDo-App/assets/86229307/28f9a138-dd89-4189-9554-613df89c5962)
+<img src="https://github.com/McGavin20/ToDo-App/assets/86229307/28f9a138-dd89-4189-9554-613df89c5962.png" width = "40%" height = "45%">
 
 ## Todo Notes
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-07-10 at 12 27 46](https://github.com/McGavin20/ToDo-App/assets/86229307/f0b41c72-210a-4b40-a80d-bd98153f903b)
+<img src="https://github.com/McGavin20/ToDo-App/assets/86229307/f0b41c72-210a-4b40-a80d-bd98153f903b.png" width = "40%" height = "45%">
 
 ## Settings View 
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-07-10 at 12 40 04](https://github.com/McGavin20/ToDo-App/assets/86229307/ff41f003-6dc1-4ea1-b237-e0bde4150554)
+<img src="https://github.com/McGavin20/ToDo-App/assets/86229307/ff41f003-6dc1-4ea1-b237-e0bde4150554.png" width = "40%" height = "45%">
