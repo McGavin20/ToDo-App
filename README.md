@@ -25,7 +25,7 @@ In addition to the main Todo functionality, I also learned how to build some ext
 
 ## Screenshots 📱:
 
-The images below show screenshots of the home screen, the Todo notes and the settings view page of the App. 'Simulator Screen Shot - iPhone 14 Pro'
+The images below show screenshots of the home screen, the Todo notes and the settings view page of the App.
 
 ### Home Page
 
